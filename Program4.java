@@ -16,16 +16,16 @@ public class Program4 {
     
     
     System.out.println("Please enter the the first number: ");
-    number1 = myScanner.nextInt();
+    number1 = myScanner.nextDouble();
     
     System.out.println("Please enter the the second number: ");
-    number2 = myScanner.nextInt();
+    number2 = myScanner.nextDouble();
     
     System.out.println("Please enter the the third number: ");
-    number3 = myScanner.nextInt();
+    number3 = myScanner.nextDouble();
     
     System.out.println("Please enter the the forth number: ");
-    number4 = myScanner.nextInt();
+    number4 = myScanner.nextDouble();
     
     sum = number1 + number2 + number3 + number4;
     average = sum/4;
